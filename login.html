@@ -8,22 +8,31 @@
 </head>
 <body class="light-theme">
     <header>
+        <div class="background"></div>
         <h1>Login</h1>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="portugal.html">Portugal</a>
+    <nav class="navigation">
+        <a href="#" class="inactive-link">Home</a>
+        <div class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Countries &#9662;</a>
+            <div class="dropdown-content">
+                <a href="index.html">Greece</a>
+                <a href="port.html">Portugal</a>
+            </div>
+        </div>
         <a href="login.html">Login</a>
-        <button class="theme-switcher">Toggle Theme</button>
+        <a href="#" class="inactive-link">Register</a>
+        <a href="#" class="inactive-link">Contact Us</a>
     </nav>
     <main>
-        <form action="#" method="post">
+        <form action="#" method="post" class="content-box">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username">
             <label for="password">Password:</label>
             <input type="password" id="password" name="password">
-            <button type="submit">Login</button>
+            <button type="submit" class="next-button">Login</button>
         </form>
     </main>
+    <script src="script.js" defer></script>
 </body>
 </html>
