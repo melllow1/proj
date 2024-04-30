@@ -1,133 +1,173 @@
-/* Styling for body */
-body {
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+.navbar{
+  position: fixed;
+  width: 100%;
+  list-style-type: none;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-img{
+.nav{
+  display: inline;
+  float: left;
+}
+.nav a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  .nav a:hover:not(#active) {
+    background-color: #111;
+  }
+  #active {
+    background-color: #505050;
+  }
+
+/* Spain */
+img:not(.cards):not(#plaza):not(#shrinkable){
     border-radius: 5px;
 }
-#green{
-    font-size: 300%;
+#headingsp{
+  background-image: url('imgs/flagspain.png');
+  background-size: 100% 100%;
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(0, 0, 0);
 }
-#green,h1,h2,h3{
-    text-align: center;
-    color: #004d40;
+body{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: block;
+}
+p:not(.cities),ul,h3,ol,h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-size: 40px;
+    color: #000;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.ksaheads{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #004d40;
-}
-.brzheads{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: green;
+.spainheads{
+    color: rgb(29, 17, 197);
 }
 div{
     display: flex;
-    align-items: center;
+}
+.cover{
+    border-radius: 5px;
+    width: 545px;
+    height: 153px;
+    background-color: rgb(238, 238, 238);
+    
+    margin-top: 25px;
+}
+.box{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 545px;
+    height: 64px;
+    display: flex;
+    background-color: rgb(238, 238, 238);
     
 }
-.l{
-    color: green;
+.cards{
+    background-color: rgb(238, 238, 238);
+    margin-top: 3px;
+    height: 153px;
+    width: 175px;
+    display: flex;
 }
-#changetheme {
-    background-color: #00796b;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 10px;
-    cursor: pointer;
+.plaza{
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 780px;
+    height: 200px;
+    
 }
-.topspots{
-    color: #000000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#changetheme:hover {
-    background-color: #00352e;
-}
-
-p, p1,li1 {
-    color: #333;
-    line-height: 1.6;
-    text-align: justify;
-    display: block;
-    margin-left: 2%;
-    margin-right: 2%;
-    font-size:22px ;
-}
-
-a {
-    color: #00796b;
+#previous:link, #previous:visited {
+    background-color: #eeeeee;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
 }
-
-a:hover {
-
-    text-decoration: underline;
+#previous:hover, #previous:active {
+    background-color: rgb(180, 178, 178);
 }
-img {
-    max-width: 100%;
-    margin: 10px auto;
+#next:link, #next:visited {
+    background-color: #eeeeee;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
 }
-ul {
-    list-style-type: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 0;
+#next:hover, #next:active {
+    background-color: rgb(180, 178, 178);
 }
-pre {
-    white-space: pre-wrap;
-    margin: 10px 0;
-}
-.green {
-    color: green;
-}
-
-.font {
-    font-size: 22px;
-}
-
-
-#border {
-    border: 2px solid #004d40;
-    padding: 10px;
-    margin: 20px 20px;
-
-}
-#AlBaik {
+/* Japan */
+p.a{
     text-align: center;
 }
-.font h2 {
-    font-size: 24px;
-}
-
-.font h3 {
-    font-size: 20px;
-}
-
-.font p {
-    font-size: 16px;
-}
-p,#conclusion{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#conclusion{
-    font-size: 20px;
+#headingjp {
+    padding: 40px; 
+    font-size: 60px;
+    color: rgb(0, 0, 0);
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .japanheads{
+    color: rgb(197, 17, 17);
+  }
+  .sensoji{
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 90%;
+    height: 100%;
+    
+  }
+  .harmonicayokocho{
+    margin-top: 15px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 90%;
+    height: 100%;
+    
+  }
+  .tokyoskytree{
+    margin-top: 15px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(238, 238, 238);
+  }
+  .inari,.Higashiyama{
+    width: 250px;
+    height: 230px;
+    background-color: rgb(238, 238, 238);
+  }
+  video {
+    border-radius: 5px;
+    
+  }
+#switcher{
+  background-color: #eeeeee;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
-.ksalogo{
-    position: relative;
-    float: left;
-}
-.ksa2logo{
-    position: relative;
-    float: right;
-}
-.Brazil logo{
-    position: relative;
-    float: left;
-}
-.Brazil logo2{
-    position: relative;
-    float: right;
+#switcher:hover, #switcher:active {
+  background-color: rgb(180, 178, 178);
 }

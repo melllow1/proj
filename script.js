@@ -1,5 +1,5 @@
 const myHeading = document.getElementById('headingjp');
-    myHeading.style.backgroundImage = "url('imgs2/redcircle.png')";
+    myHeading.style.backgroundImage = "url('imgs/redcircle.png')";
     myHeading.style.backgroundSize = "contain"; 
     myHeading.style.backgroundRepeat = "no-repeat"
     myHeading.style.backgroundPosition = "center"; 
