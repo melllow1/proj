@@ -3,21 +3,23 @@ body, h1, h2, h3, p, a, ul, li {
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: 'Calibri', sans-serif;
 }
 
 body {
-    font-family: 'Calibri', sans-serif;
-    transition: background-color 0.3s, color 0.3s;
+    padding: 20px;
+    background-color: #918366; 
+    color: black; 
 }
 
 .light-theme {
-    background-color: white;
-    color: black;
+    background-color: #f0f0f0; 
+    color: black; 
 }
 
 .dark-theme {
-    background-color: black;
-    color: white;
+    background-color: #000080; 
+    color: black; 
 }
 
 header {
@@ -27,47 +29,68 @@ header {
     justify-content: center;
     height: 300px;
     text-align: center;
-    color: #292424; 
     background-image: url('../images/BG.jpg'); 
     background-size: cover;
     background-position: center;
+    color: white;
 }
 
 header h1 {
-    color: #36316b; 
     font-size: 50px; 
     margin-top: 20px;
-    position: relative;
-    z-index: 1;
 }
+
+.content-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1500px;
+}
+
+.content-flex {
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;  
+    margin-bottom: 20px; 
+}
+.content-flex img {
+    width: 150px;  
+    height: 100px;  
+    margin-left: 20px;  
+    order: 2;  
+}
+
 
 
 .navigation {
     position: fixed;
     top: 0;
     right: 0;
-    width: 30px; /* initial width */
+    width: 30px; 
     height: 100%;
-    background-color: #877858;
+    background-color: #29251d;  
     padding: 5px;
     text-align: center;
-    overflow: hidden; /* Hide overflow */
-    transition: width 0.3s; /* Smooth transition for width */
+    overflow: hidden; 
+    transition: width 0.3s; 
 }
 
 .navigation:hover {
-    width: 200px; /* Expand */
+    width: 200px; 
 }
+
 
 .navigation a, .navigation button {
     color: white;
     display: block;
     opacity: 0;
-    transition: opacity 0.3s 0.3s; /* Delay the text appearance until after the expansion */
+    transition: opacity 0.3s 0.3s;
 }
 
 .navigation:hover a, .navigation:hover button {
-    opacity: 1; /* Make text visible on hover */
+    opacity: 1;
 }
 
 section {
@@ -75,9 +98,9 @@ section {
     padding: 20px;
 }
 
-.next-button, .theme-switcher {
+.next-button {
     padding: 10px 20px;
-    color: #FFF;
+    color: white;
     background-color: #877858;
     border: none;
     cursor: pointer;
@@ -85,13 +108,4 @@ section {
     width: 200px;
     margin: 20px auto;
     text-align: center;
-}
-header {
-    background-image: url("BG.jpg"); 
-    background-size: cover;  
-    background-position: center; 
-    color: white; 
-    padding: 20px;
-    text-align: center; 
-    height: 300px; 
 }
