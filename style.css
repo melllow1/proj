@@ -1,0 +1,173 @@
+.navbar{
+  position: fixed;
+  width: 100%;
+  list-style-type: none;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.nav{
+  display: inline;
+  float: left;
+}
+.nav a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  .nav a:hover:not(#active) {
+    background-color: #111;
+  }
+  #active {
+    background-color: #505050;
+  }
+
+/* Spain */
+img:not(.cards):not(#plaza):not(#shrinkable){
+    border-radius: 5px;
+}
+#headingsp{
+  background-image: url('flagspain.png');
+  background-size: 100% 100%;
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(0, 0, 0);
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: block;
+}
+p:not(.cities),ul,h3,ol,h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-size: 40px;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.spainheads{
+    color: rgb(29, 17, 197);
+}
+div{
+    display: flex;
+}
+.cover{
+    border-radius: 5px;
+    width: 545px;
+    height: 153px;
+    background-color: rgb(238, 238, 238);
+    
+    margin-top: 25px;
+}
+.box{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 545px;
+    height: 64px;
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    
+}
+.cards{
+    background-color: rgb(238, 238, 238);
+    margin-top: 3px;
+    height: 153px;
+    width: 175px;
+    display: flex;
+}
+.plaza{
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 780px;
+    height: 200px;
+    
+}
+#previous:link, #previous:visited {
+    background-color: #eeeeee;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#previous:hover, #previous:active {
+    background-color: rgb(180, 178, 178);
+}
+#next:link, #next:visited {
+    background-color: #eeeeee;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+}
+#next:hover, #next:active {
+    background-color: rgb(180, 178, 178);
+}
+/* Japan */
+p.a{
+    text-align: center;
+}
+#headingjp {
+    padding: 40px; 
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .japanheads{
+    color: rgb(197, 17, 17);
+  }
+  .sensoji{
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 90%;
+    height: 100%;
+    
+  }
+  .harmonicayokocho{
+    margin-top: 15px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 90%;
+    height: 100%;
+    
+  }
+  .tokyoskytree{
+    margin-top: 15px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(238, 238, 238);
+  }
+  .inari,.Higashiyama{
+    width: 250px;
+    height: 230px;
+    background-color: rgb(238, 238, 238);
+  }
+  video {
+    border-radius: 5px;
+    
+  }
+#switcher{
+  background-color: #eeeeee;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#switcher:hover, #switcher:active {
+  background-color: rgb(180, 178, 178);
+}
