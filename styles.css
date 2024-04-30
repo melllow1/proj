@@ -1,0 +1,97 @@
+body, h1, h2, h3, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Calibri', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.light-theme {
+    background-color: white;
+    color: black;
+}
+
+.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+    color: #292424; 
+    background-image: url('../images/BG.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    color: #36316b; 
+    font-size: 50px; 
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30px; /* initial width */
+    height: 100%;
+    background-color: #877858;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden; /* Hide overflow */
+    transition: width 0.3s; /* Smooth transition for width */
+}
+
+.navigation:hover {
+    width: 200px; /* Expand */
+}
+
+.navigation a, .navigation button {
+    color: white;
+    display: block;
+    opacity: 0;
+    transition: opacity 0.3s 0.3s; /* Delay the text appearance until after the expansion */
+}
+
+.navigation:hover a, .navigation:hover button {
+    opacity: 1; /* Make text visible on hover */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+.next-button, .theme-switcher {
+    padding: 10px 20px;
+    color: #FFF;
+    background-color: #877858;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+header {
+    background-image: url("BG.jpg"); 
+    background-size: cover;  
+    background-position: center; 
+    color: white; 
+    padding: 20px;
+    text-align: center; 
+    height: 300px; 
+}
