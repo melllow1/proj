@@ -1,7 +1,13 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const themeSwitcher = document.querySelector('.theme-switcher');
-    themeSwitcher.addEventListener('click', function() {
-        document.body.classList.toggle('dark-theme');
-        document.body.classList.toggle('light-theme');
-    });
-});
+const myHeading = document.getElementById('headingjp');
+    myHeading.style.backgroundImage = "url('imgs2/redcircle.png')";
+    myHeading.style.backgroundSize = "contain"; 
+    myHeading.style.backgroundRepeat = "no-repeat"
+    myHeading.style.backgroundPosition = "center"; 
+function switchdark(){
+    var theme = document.getElementById('stylesheet');
+    if(stylesheet.getAttribute('href') == 'style.css'){
+        stylesheet.setAttribute('href','style2.css');
+    }else{
+        stylesheet.setAttribute('href','style.css');
+    }
+}
