@@ -5,9 +5,9 @@ const myHeading = document.getElementById('headingjp');
     myHeading.style.backgroundPosition = "center"; 
 function switchdark(){
     var theme = document.getElementById('stylesheet');
-    if(stylesheet.getAttribute('href') == 'style.css'){
+    if(stylesheet.getAttribute('href') == 'CSS/style.css'){
         stylesheet.setAttribute('href','style2.css');
     }else{
-        stylesheet.setAttribute('href','style.css');
+        stylesheet.setAttribute('href','CSS/style.css');
     }
 }
