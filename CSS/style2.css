@@ -32,7 +32,6 @@ img:not(.cards):not(#plaza):not(#shrinkable){
 }
 #headingsp{
   
-  background-image: url('imgs/flagspain.png');
   background-size: 100% 100%;
   font-size: 60px;
   color: #ffffff;
