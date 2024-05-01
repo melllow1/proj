@@ -1,0 +1,133 @@
+/* Styling for body */
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+img{
+    border-radius: 5px;
+}
+#green{
+    font-size: 300%;
+}
+#green,h1,h2,h3{
+    text-align: center;
+    color: #004d40;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ksaheads{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #004d40;
+}
+.brzheads{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+}
+div{
+    display: flex;
+    align-items: center;
+    
+}
+.l{
+    color: green;
+}
+#changetheme {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.topspots{
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#changetheme:hover {
+    background-color: #00352e;
+}
+
+p, p1,li1 {
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+    display: block;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size:22px ;
+}
+
+a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+img {
+    max-width: 100%;
+    margin: 10px auto;
+}
+ul {
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+}
+pre {
+    white-space: pre-wrap;
+    margin: 10px 0;
+}
+.green {
+    color: green;
+}
+
+.font {
+    font-size: 22px;
+}
+
+
+#border {
+    border: 2px solid #004d40;
+    padding: 10px;
+    margin: 20px 20px;
+
+}
+#AlBaik {
+    text-align: center;
+}
+.font h2 {
+    font-size: 24px;
+}
+
+.font h3 {
+    font-size: 20px;
+}
+
+.font p {
+    font-size: 16px;
+}
+p,#conclusion{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#conclusion{
+    font-size: 20px;
+    text-align: center;
+}
+.ksalogo{
+    position: relative;
+    float: left;
+}
+.ksa2logo{
+    position: relative;
+    float: right;
+}
+.Brazil logo{
+    position: relative;
+    float: left;
+}
+.Brazil logo2{
+    position: relative;
+    float: right;
+}
