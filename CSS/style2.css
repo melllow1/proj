@@ -35,7 +35,7 @@ img:not(.cards):not(#plaza):not(#shrinkable){
   background-image: url('imgs/flagspain.png');
   background-size: 100% 100%;
   font-size: 60px;
-  color:rgb(0, 0, 0);
+  color: #ffffff;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
