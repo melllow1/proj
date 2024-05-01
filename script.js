@@ -6,7 +6,7 @@ const myHeading = document.getElementById('headingjp');
 function switchdark(){
     var theme = document.getElementById('stylesheet');
     if(stylesheet.getAttribute('href') == 'CSS/style.css'){
-        stylesheet.setAttribute('href','style2.css');
+        stylesheet.setAttribute('href','CSS/style2.css');
     }else{
         stylesheet.setAttribute('href','CSS/style.css');
     }
