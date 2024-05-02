@@ -18,7 +18,7 @@ body {
 }
 
 .dark-theme {
-    background-color: #000080; 
+    background-color: #242424; 
     color: black; 
 }
 
@@ -38,6 +38,26 @@ header {
 header h1 {
     font-size: 50px; 
     margin-top: 20px;
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.slanted-text {
+    font-family: 'Garamond', serif; 
+    font-size: 50px; 
+    transform: skew(-15deg); 
+    margin-left: 10px; 
+}
+
+.title-box img {
+    width: 65px; 
+    height: auto;
+    margin-right: 25px; 
 }
 
 .content-box {
@@ -111,4 +131,14 @@ section {
     width: 200px;
     margin: 20px auto;
     text-align: center;
+}
+
+.dark-mode {
+    background-color: #000000; 
+    color: black;
+}
+
+.light-green-theme {
+    background-color: #b4d9be; 
+    color: black;
 }
